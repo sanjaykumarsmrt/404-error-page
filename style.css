@@ -58,3 +58,99 @@ footer{
     color: grey;
     font-size: 13px; 
 }
+
+@media (min-width: 374px) and (max-width: 768px){
+
+    header{
+    font-size: 10px;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    height: 5vh;
+    }
+
+    main{
+        height: 90vh;
+        padding: 0;
+        font-family:Space Mono;  
+    }
+
+    .content{
+        padding: 0px;
+        height: 45vh;
+        width: 100wh;
+        padding-top: 50px;
+        position: absolute;
+        bottom: 3rem;
+        left: 5rem;
+    }
+
+    .content h1{
+        font-size: 25px;
+    }
+
+    .content p{
+        font-size: 17px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .media{
+        height: 45vh;
+        width: 250px;
+        margin-top: 50px;
+        position: relative;
+        left: 65px;
+    }
+    .media img{
+        height: 250px;
+        width: 250px;
+    }
+    
+    footer{
+        position: absolute;
+        bottom: 0px;
+        left: 100px;
+        height: 5vh;
+    }
+    
+}
+
+@media (min-width: 769px) and (max-width: 1136px) {
+    
+    body{
+        height: 100vh;
+    }
+    
+    main{
+        padding: 0;
+        height: 0vh;
+        margin-top: 100px;
+    }
+
+    .media{
+        margin-left: 90px;
+    }
+
+    
+    .content h1{
+        font-size: 25px;
+    }
+
+    .content p{
+        font-size: 17px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .content{
+        position: absolute;
+        top: 270px;
+    }
+
+    footer{
+        position: absolute;
+        bottom: 0px;
+        left: 17rem;
+    }
+
+}
