@@ -59,7 +59,7 @@ footer{
     font-size: 13px; 
 }
 
-@media (min-width: 374px) and (max-width: 768px){
+@media (min-width: 250px) and (max-width: 768px){
 
     header{
     font-size: 10px;
